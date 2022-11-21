@@ -1,0 +1,39 @@
+HOW TO CRAWL A WEBSITE
+1)Get the URL. The initial URL is an entry point for the web crawl,which links to the we page that needs to be crawl
+2)While crawling the webpage,we need to fetch the HTML content of the page,then parse it to get the URLs of all the pages linked to this page.
+3)Put these URLs into a queue.
+4)Loop through the queue,read the URLs from the queue one by one,for each URL,crawl the corresponding web page,then repeat the above crawling process.
+5)Check whether the stop condition is set.If the stop condition is not set,the crawler will keep crawling until it cannot get a new URL.
+
+
+
+SAVE IMAGES FROM THE WEB SITE:
+STEP1:
+    Enter the URL.
+STEP2:
+    Select the images you want to crawl.
+STEP3:
+    Crawl images across pages
+STEP4:
+    Crawl with Auto-scrolling settings.
+STEP5:
+    Start your crawler
+
+METHODS TO SAVE IMAGES FROM WEBSITE IN PYTHON:
+ Method1:Use requests.get() and write().
+ METHOD2:Use requests.get() and image.
+ METHOD3:Use requests.get() and shutil.
+ METHOD4:Use urllib.request.urlretrive()
+ Download all images using a for loop
+ 
+ 
+ 
+
+SAVE TEXT FROM THE WEB SITE:
+
+3 Approachs:
+
+Approach #1 - Use a Ready-to-Use Web Crawler Tool [recommended]
+Approach #2 - Use Website APIs
+Approach #3 - Build a Web Crawler
+
